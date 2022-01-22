@@ -45,6 +45,7 @@ html {
 }
 
 body {
+  background-color: darkgray;
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -372,11 +373,13 @@ img {
 
 .contact__button {
   display: block;
+  border-radius: 30px;
   border: none;
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+  box-shadow: 10px 10px 20px black;
 }
 
 /* ===== FOOTER =====*/
