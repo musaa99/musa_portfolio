@@ -381,7 +381,16 @@ img {
   margin-left: auto;
   box-shadow: 10px 10px 20px black;
 }
+.btn {
+  
+  background-color: var(--first-color);
 
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
 
 /* ===== FOOTER =====*/
 .footer {
