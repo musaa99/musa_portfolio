@@ -246,8 +246,16 @@ img {
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
-  border-radius: .5rem;
+  border-radius: 5rem;
   transition: .3s;
+}
+.btn {
+  background-color: var(--first-color);
+  color: #fff;
+  border-radius: 5rem;
+  transition: .3s;
+  margin: 8px;
+  
 }
 
 .button:hover {
@@ -343,6 +351,7 @@ img {
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
+  text-align: center;
 }
 
 .work__img {
@@ -381,7 +390,7 @@ img {
   margin-left: auto;
   box-shadow: 10px 10px 20px black;
 }
-.btn {
+/* .btn {
   
   background-color: var(--first-color);
 
@@ -390,7 +399,7 @@ img {
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
-}
+} */
 
 /* ===== FOOTER =====*/
 .footer {
