@@ -71,6 +71,9 @@ img {
   height: auto;
   display: block;
 }
+.fin-image{
+  height: 60%;
+}
 
 /*===== CLASS CSS ===== */
 .section-title {
@@ -283,7 +286,7 @@ img {
 
 /* ===== SKILLS =====*/
 .skills__container {
-  row-gap: 2rem;
+  display: flex;
   text-align: center;
 }
 
